@@ -115,3 +115,38 @@ export interface BatchPaymentRequest {
   token?: string;          // Token address (optional)
   label?: string;          // Payment description
 }
+
+// Add these to your existing lib/types.ts file
+
+/**
+ * Moonpay transaction request
+ */
+export interface MoonpayTransactionRequest {
+  walletAddress: string;          // Recipient wallet
+  currencyCode: string;           // e.g., 'usdc_avalanche'
+  baseCurrencyAmount: number;     // Fiat amount (USD)
+  externalTransactionId?: string; // Your payment ID
+  redirectURL?: string;           // Return URL after payment
+}
+
+/**
+ * Moonpay transaction response
+ */
+export interface MoonpayTransactionResponse {
+  id: string;                     // Moonpay transaction ID
+  status: 'pending' | 'completed' | 'failed';
+  cryptoCurrencyId: string;       // e.g., 'usdc_avalanche'
+  baseCurrencyAmount: number;     // USD amount
+  quoteCurrencyAmount: number;    // Crypto amount
+  feeAmount: number;              // Moonpay fee
+  walletAddress: string;          // Recipient address
+  createdAt: string;              // ISO timestamp
+}
+
+/**
+ * Moonpay webhook payload
+ */
+export interface MoonpayWebhookPayload {
+  type: 'transaction_completed' | 'transaction_failed';
+  data: MoonpayTransactionResponse;
+}

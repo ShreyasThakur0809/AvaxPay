@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "dotenv": "^17.2.3",
+    "next": "^16.0.0",
     "wagmi": "^2.19.0"
   }
 }
