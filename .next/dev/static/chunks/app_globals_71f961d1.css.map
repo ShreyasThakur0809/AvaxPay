@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Projects/AvaxPay/app/globals.css"],"sourcesContent":["@import \"tailwindcss\";\r\n\r\n@theme {\r\n  /* Your custom theme variables go here */\r\n}"],"names":[],"mappings":"AAEA","debugId":null}}]
+}

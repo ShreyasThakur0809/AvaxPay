@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Projects/AvaxPay/app/layout.tsx"],"sourcesContent":["//app/layout.tsx\r\n\r\nimport type { Metadata } from 'next';\r\nimport './globals.css';\r\n\r\nexport const metadata: Metadata = {\r\n  title: 'AvaxPay - Decentralized Payment Processor',\r\n  description: 'Accept crypto payments with 0.5% fees',\r\n};\r\n\r\nexport default function RootLayout({\r\n  children,\r\n}: {\r\n  children: React.ReactNode;\r\n}) {\r\n  return (\r\n    <html lang=\"en\">\r\n      <body>{children}</body>\r\n    </html>\r\n  );\r\n}\r\n"],"names":[],"mappings":"AAAA,gBAAgB;;;;;;;;;;AAKT,MAAM,WAAqB;IAChC,OAAO;IACP,aAAa;AACf;AAEe,SAAS,WAAW,EACjC,QAAQ,EAGT;IACC,qBACE,6VAAC;QAAK,MAAK;kBACT,cAAA,6VAAC;sBAAM;;;;;;;;;;;AAGb","debugId":null}},
+    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":["file:///C:/Projects/AvaxPay/node_modules/.pnpm/next%4016.0.0_%40babel%2Bcore%407.2_f156bc6623ddf8742ccdddf749dd3b25/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4MACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0],"debugId":null}}]
+}
