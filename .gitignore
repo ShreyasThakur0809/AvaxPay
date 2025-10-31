@@ -1,6 +1,23 @@
 node_modules
 .env
 
+# Next.js build output
+.next/
+out/
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+
 # Hardhat files
 /cache
 /artifacts
