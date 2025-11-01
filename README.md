@@ -1,9 +1,11 @@
-#  AvaxPay - Smart Contracts
+# AvaxPay
 
-**Deeplink Payment platform & Stripe for Avalanche blockchain**
+**Deeplink Payment Platform & Stripe for Avalanche Blockchain**
+
+[![Demo Video](https://img.shields.io/badge/-Watch_Demo-red?style=for-the-badge&logo=youtube)]([https://youtube.com/your-video-link](https://youtu.be/SzBH74kJ_Pw))
+[![Live Demo](https://img.shields.io/badge/-Live_Demo-blue?style=for-the-badge)](https://avaxpay.vercel.app)
 
 ---
-
 ## 📜 Deployed Contracts (Fuji Testnet)
 
 | Contract | Address | Snowtrace |
@@ -14,9 +16,7 @@
 | **Mock USDT** | `0xECa66Dd77eD582e22C238a18d52D283460fFa8a0` | [View](https://testnet.snowtrace.io/address/0xECa66Dd77eD582e22C238a18d52D283460fFa8a0) |
 
 ---
-
 ## ⚙️ Configuration
-
 Create `.env` file in AvaxPay-frontend:
 
 Avalanche Network
