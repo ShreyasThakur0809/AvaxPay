@@ -1,6 +1,6 @@
 #  AvaxPay - Smart Contracts
 
-**Deeplink Payment platform for Avalanche blockchain**
+**Deeplink Payment platform & Stripe for Avalanche blockchain**
 
 ---
 
@@ -20,9 +20,23 @@
 
 ## ⚙️ Configuration
 
-Create `.env` file in root:
+Create `.env` file in AvaxPay-frontend:
 
-PRIVATE_KEY=your_wallet_private_key
-FUJI_RPC_URL=get from Alchemy
+# Avalanche Network
+NEXT_PUBLIC_CHAIN_ID=43113
+NEXT_PUBLIC_NETWORK=testnet
 
+# RPC URLs
+NEXT_PUBLIC_FUJI_RPC_URL=https://avax-fuji.g.alchemy.com/ your alchemy testnet url
 
+# App URL
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+
+# WalletConnect Project ID - Get from: https://cloud.walletconnect.com
+NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=
+
+# Contract Addresses (from backend deployment)
+NEXT_PUBLIC_AVAXPAY_PROCESSOR=0x28a5dB9905a59376a40cA91c025B4F3A00Abd4FA
+NEXT_PUBLIC_SUBSCRIPTION_MANAGER=0x7469CEC4eF717b2265963f663ABc049Ab15f4FeA
+
+Run- pnpm dev
