@@ -20,16 +20,20 @@
 Create `.env` file in AvaxPay-frontend:
 
 Avalanche Network
+
 NEXT_PUBLIC_CHAIN_ID=43113
 NEXT_PUBLIC_NETWORK=testnet
 
 RPC URLs
+
 NEXT_PUBLIC_FUJI_RPC_URL=https://avax-fuji.g.alchemy.com/ your alchemy testnet url
 
 App URL
+
 NEXT_PUBLIC_APP_URL=http://localhost:3000
 
 WalletConnect Project ID - Get from: https://cloud.walletconnect.com
+
 NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=
 
 Contract Addresses (from backend deployment)
