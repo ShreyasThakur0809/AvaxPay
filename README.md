@@ -3,7 +3,7 @@
 **Deeplink Payment Platform & Stripe for Avalanche Blockchain**
 
 [![Demo Video](https://img.shields.io/badge/-Watch_Demo-red?style=for-the-badge&logo=youtube)](https://youtu.be/SzBH74kJ_Pw)
-[![Live Demo](https://img.shields.io/badge/-Live_Demo-blue?style=for-the-badge)](https://avaxpay.vercel.app)
+[![Live Demo](https://img.shields.io/badge/-Live_Demo-blue?style=for-the-badge)](https://avax-pay.vercel.app/)
 
 ---
 ## 📜 Deployed Contracts (Fuji Testnet)
